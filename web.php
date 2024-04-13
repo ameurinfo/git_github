@@ -19,10 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Auth::routes(Register=>true);
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::resource('materials/masterupdate', MaterialController::class);
-Route::resource('categories/category', CategoryController::class);
-Route::resource('master/updatemaster', MasterControllerupdate::class);
-Route::resource('exist', ExisteController::class);
+// make other technique with this repository for inteliginfo 
