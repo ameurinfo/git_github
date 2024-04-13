@@ -24,4 +24,4 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::resource('materials/masterupdate', MaterialController::class);
 Route::resource('categories/category', CategoryController::class);
-Route::resource('master/updatnewmaster', MasterControllerupdate::class);
+Route::resource('master/updatemaster', MasterControllerupdate::class);
