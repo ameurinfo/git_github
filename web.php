@@ -26,3 +26,4 @@ Route::resource('materials/masterupdate', MaterialController::class);
 Route::resource('categories/category', CategoryController::class);
 Route::resource('master/updatemaster', MasterControllerupdate::class);
 Route::resource('exist', ExisteController::class);
+/// test now
